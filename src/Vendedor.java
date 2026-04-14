@@ -55,8 +55,7 @@ public class Vendedor {
             return "Se requiere seguimiento comercial";
         }
     }
-
-    public void mostrarDatos() {
+        public void mostrarDatos() {
         System.out.println("===== INFORME DE VENTA =====");
         System.out.println("Nombre: " + nombre);
         System.out.println("Área: " + area);
