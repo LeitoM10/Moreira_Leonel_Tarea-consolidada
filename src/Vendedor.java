@@ -56,4 +56,16 @@ public class Vendedor {
         }
     }
 
+    public void mostrarDatos() {
+        System.out.println("===== INFORME DE VENTA =====");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Área: " + area);
+        System.out.println("Monto vendido: $" + montoVendido);
+        System.out.println("Comisión: $" + calcularComision());
+        System.out.println("Ingreso total: $" + calcularIngresoTotal());
+        System.out.println("Cumplimiento: " + cumplimientoMeta + "%");
+        System.out.println("Estado: " + obtenerEstado());
+        System.out.println("Mensaje: " + obtenerMensajeDesempeño());
+    }
+
 }
